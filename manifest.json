@@ -1,0 +1,25 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "img/icon19.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Facebook Online Notifier"
+   },
+   "description": "Facebook Online Notifier",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "Facebook Online Notifier",
+   "options_page": "options.html",
+   "permissions": [ "https://*.facebook.com/*", "https://www.messenger.com/*", "webRequest", "webRequestBlocking", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5"
+}
